@@ -1,0 +1,62 @@
+#pragma once
+#include "Controller.h"
+
+namespace ACN
+{
+	enum TurnMode
+	{
+		TURN_NOT_STARTED,
+		TURN_NEEDS_MOVE_UNIT,
+		TURN_NEEDS_GIVE_ACTION,
+		TURN_NEEDS_ACTION
+	};
+
+	class HumanController : public Controller, public InputListener
+	{
+	public:
+		//////////////////////////////////////////////////////////////////////////
+		///Initializers & Constructor/Destructor
+		//////////////////////////////////////////////////////////////////////////
+		
+		HumanController();
+		virtual ~HumanController();
+		
+		//////////////////////////////////////////////////////////////////////////
+		///Frame Updates
+		//////////////////////////////////////////////////////////////////////////		
+
+		virtual void UpdateSimulation( float deltaTime );
+		virtual void OnMouseButton( int whichButton, int state, int mouseX, int mouseY );
+		void LeftMoustButtonDown();
+		virtual void OnKeyDown( unsigned char keyCode, int mouseX, int mouseY );
+
+		//////////////////////////////////////////////////////////////////////////
+		///Mutators
+		//////////////////////////////////////////////////////////////////////////
+		
+		void ResetOldTurnVariables();
+		void SetupCurrentOrder( unsigned char keyCode );
+
+		//////////////////////////////////////////////////////////////////////////
+		///Public Functions
+		//////////////////////////////////////////////////////////////////////////
+
+		virtual void StartTurn();
+		virtual void EndCurrentTurn();
+		virtual void BeginTurnForHero( Hero* ptrToHero );		
+		bool IsCurrentSelectedTileValidPos();
+
+	private:
+		//////////////////////////////////////////////////////////////////////////
+		///Data
+		//////////////////////////////////////////////////////////////////////////
+		
+		bool m_isGivingUnitOrder;
+		Hero* m_currentHeroWithTurn;
+		bool m_canMoveUnit;
+		std::string m_currentOrderName;		
+		TurnMode m_currentTurnMode;
+		bool m_gaveUnitOrder;
+	};
+}
+
