@@ -1,0 +1,64 @@
+<Models>
+  <Model>
+    <Info name="Grass" />
+    <Path pathName="Data/Scenes/Grass.MY3D"/>
+  </Model>
+  <Model>
+    <Info name="Grass2" />
+    <Path pathName="Data/Scenes/Grass2.MY3D"/>
+  </Model>
+  <Model>
+    <Info name="Grass3" />
+    <Path pathName="Data/Scenes/Grass3.MY3D"/>
+  </Model>
+  <Model>
+    <Info name="Grass4" />
+    <Path pathName="Data/Scenes/Grass4.MY3D"/>
+  </Model>
+  <Model>
+    <Info name="Grass5" />
+    <Path pathName="Data/Scenes/Grass5.MY3D"/>
+  </Model>
+  <Model>
+    <Info name="Forest" />
+    <Path pathName="Data/Scenes/PalmTree.MY3D"/>
+  </Model>
+  <Model>
+    <Info name="Forest2" />
+    <Path pathName="Data/Scenes/NormalTree.MY3D"/>
+  </Model>
+  <Model>
+    <Info name="Mountain" />
+    <Path pathName="Data/Scenes/Mountain.MY3D"/>
+  </Model>
+
+  <Model>
+    <Info name="Mountain2" />
+    <Path pathName="Data/Scenes/Mountain2.MY3D"/>
+  </Model>
+  <Model>
+    <Info name="LaraStatic" />
+    <Path pathName="Data/Scenes/LaraStatiic.MY3D"/>
+  </Model>
+  <Model>
+    <Info name="LinaStatic" />
+    <Path pathName="Data/Scenes/LinaStatic.MY3D"/>
+  </Model>
+  <Model>
+    <Info name="RaidenStatic" />
+    <Path pathName="Data/Scenes/RaidenStatic.MY3D"/>
+  </Model>
+   <Model>
+      <Info name="BatStatic" />
+      <Path pathName="Data/Scenes/BatStatic.MY3D"/>
+    </Model>
+
+  <Model>
+    <Info name="AxeStatic" />
+    <Path pathName="Data/Scenes/AxeStatic.MY3D"/>
+  </Model>
+  <Model>
+    <Info name="CrystalMaidenStatic" />
+    <Path pathName="Data/Scenes/CMStatic.MY3D"/>
+  </Model>
+</Models>

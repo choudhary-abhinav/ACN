@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="16" height="11" tilewidth="64" tileheight="64">
+ <properties>
+  <property name="Name" value="Valkyries"/>
+ </properties>
+ <tileset firstgid="1" name="Terrain" tilewidth="64" tileheight="64">
+  <image source="../../Textures/TacticsTerrain.png" width="512" height="512"/>
+  <tile id="0">
+   <properties>
+    <property name="TerrainName" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="TerrainName" value="Water"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="TerrainName" value="Forest"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="TerrainName" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="TerrainName" value="Mountain"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="TerrainName" value="Dinosaur"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="TerrainName" value="Spider"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="TerrainName" value="Colliseum"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="TerrainName" value="PlayerStart"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="TerrainName" value="EnemyStart"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="TerrainName" value="Helicopter"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="TerrainName" value="Bike"/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="TerrainName" value="Tanks"/>
+   </properties>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="TerrainName" value="Car"/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="TerrainName" value="Kyle"/>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="TerrainName" value="Scott"/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="TerrainName" value="Andrew"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="TerrainName" value="Andrew"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="TerrainName" value="Preston"/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="TerrainName" value="Matt"/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="TerrainName" value="Abhi"/>
+   </properties>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="TerrainName" value="Trevin"/>
+   </properties>
+  </tile>
+  <tile id="22">
+   <properties>
+    <property name="TerrainName" value="Ben"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="65" name="Elevation" tilewidth="64" tileheight="64">
+  <image source="../../Textures/number.png" width="320" height="192"/>
+  <tile id="0">
+   <properties>
+    <property name="Elevation" value="0"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="Elevation" value="1"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="Elevation" value="2"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="Elevation" value="3"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="Elevation" value="4"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="Elevation" value="5"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="Elevation" value="6"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="Elevation" value="7"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="Elevation" value="8"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="Elevation" value="9"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="Elevation" value="10"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="Elevation" value="11"/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="Elevation" value="12"/>
+   </properties>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="Elevation" value="13"/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="Elevation" value="14"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Base" width="16" height="11">
+  <data encoding="base64">
+   AQAAAAEAAAABAAAAAwAAAAMAAAADAAAAAwAAAAMAAAABAAAAAQAAAAEAAAACAAAAAgAAAAIAAAACAAAAAgAAAAEAAAABAAAAAQAAAAMAAAADAAAAAwAAAAMAAAABAAAAAQAAAAEAAAABAAAAAgAAAAIAAAACAAAAAgAAAAIAAAABAAAAAQAAAAEAAAADAAAAAwAAAAMAAAADAAAAAQAAAAEAAAABAAAAAQAAAAEAAAACAAAAAgAAAAIAAAACAAAABQAAAAEAAAABAAAAAQAAAAMAAAADAAAAAwAAAAEAAAABAAAAAQAAAAEAAAABAAAAAgAAAAIAAAACAAAAAgAAAAUAAAAFAAAAAQAAAAEAAAADAAAAAwAAAAEAAAABAAAAAQAAAAIAAAACAAAAAQAAAAIAAAACAAAAAQAAAAEAAAAFAAAABQAAAAEAAAABAAAAAwAAAAMAAAABAAAAAQAAAAEAAAACAAAAAgAAAAQAAAAEAAAAAgAAAAEAAAABAAAABQAAAAUAAAABAAAAAQAAAAMAAAADAAAAAQAAAAEAAAABAAAAAgAAAAIAAAAEAAAABAAAAAIAAAABAAAAAQAAAAUAAAAFAAAAAQAAAAEAAAABAAAAAQAAAAQAAAAEAAAAAgAAAAIAAAACAAAABAAAAAQAAAABAAAAAQAAAAEAAAAFAAAABQAAAAUAAAABAAAAAQAAAAEAAAAEAAAABAAAAAIAAAACAAAAAgAAAAQAAAAEAAAAAQAAAAEAAAABAAAABQAAAAUAAAAFAAAAAQAAAAEAAAAEAAAABAAAAAQAAAACAAAAAgAAAAIAAAACAAAABAAAAAQAAAABAAAAAgAAAAUAAAAFAAAABQAAAAEAAAAEAAAABAAAAAQAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAA=
+  </data>
+ </layer>
+ <layer name="Players" width="16" height="11">
+  <data encoding="base64">
+   DwAAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFgAAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+  </data>
+ </layer>
+ <layer name="Elevation" width="16" height="11" visible="0">
+  <data encoding="base64">
+   SgAAAEoAAABJAAAASAAAAEcAAABGAAAARgAAAEUAAABEAAAARQAAAEUAAABBAAAAQQAAAEEAAABBAAAAQQAAAEoAAABKAAAASgAAAEkAAABIAAAARwAAAEcAAABGAAAARgAAAEYAAABFAAAAQQAAAEEAAABBAAAAQQAAAEEAAABKAAAASgAAAEoAAABJAAAASAAAAEgAAABHAAAARgAAAEYAAABGAAAARQAAAEUAAABBAAAAQQAAAEEAAABBAAAASgAAAEkAAABJAAAASQAAAEgAAABHAAAARgAAAEYAAABGAAAARQAAAEUAAABFAAAAQQAAAEEAAABBAAAAQQAAAEsAAABKAAAASQAAAEkAAABIAAAARwAAAEYAAABGAAAARgAAAEEAAABBAAAARQAAAEEAAABBAAAAQgAAAEIAAABLAAAASgAAAEkAAABJAAAASAAAAEcAAABHAAAARwAAAEYAAABBAAAAQQAAAEQAAABEAAAAQQAAAEIAAABCAAAASwAAAEoAAABJAAAASQAAAEgAAABHAAAARwAAAEcAAABHAAAAQQAAAEEAAABEAAAARAAAAEEAAABCAAAAQgAAAEoAAABJAAAASAAAAEgAAABIAAAARwAAAEcAAABHAAAAQQAAAEEAAABBAAAAQwAAAEQAAABDAAAAQgAAAEIAAABKAAAASQAAAEgAAABIAAAASAAAAEgAAABHAAAARwAAAEEAAABBAAAAQQAAAEQAAABEAAAAQwAAAEMAAABCAAAASQAAAEgAAABHAAAARgAAAEgAAABIAAAARwAAAEcAAABBAAAAQQAAAEEAAABBAAAAQwAAAEMAAABDAAAAQQAAAEkAAABIAAAARwAAAEYAAABGAAAARQAAAEUAAABBAAAAQQAAAEEAAABBAAAAQQAAAEEAAABBAAAAQQAAAEEAAAA=
+  </data>
+ </layer>
+</map>

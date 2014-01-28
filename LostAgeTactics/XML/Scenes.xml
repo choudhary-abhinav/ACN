@@ -1,0 +1,25 @@
+<SceneData>
+  <Scenes>      
+    <Scene Path ="Scenes/Mountain.MY3D"></Scene>  
+    <Scene Path ="Scenes/CharIdle.MY3D"></Scene>
+    <Scene Path ="Scenes/CharSideStepLeft.MY3D"></Scene>
+    <Scene Path ="Scenes/CharSideStepRight.MY3D"></Scene>    
+    <!--<Scene Path ="Scenes/03-obj.my3d"></Scene>
+    <Scene Path ="Scenes/07-scaling-box.my3d"></Scene>
+    <Path pathName="Data/Scenes/Mountain.MY3D"/>
+    <Path pathName="Data/Scenes/Mountain.MY3D"/>
+    <Path pathName="Data/Scenes/Mountain.MY3D"/>
+    <Path pathName="Data/Scenes/Mountain.MY3D"/>
+    <Path pathName="Data/Scenes/Mountain.MY3D"/>
+    <Path pathName="Data/Scenes/Mountain.MY3D"/>
+    <Path pathName="Data/Scenes/Mountain.MY3D"/>
+    <Path pathName="Data/Scenes/Mountain.MY3D"/>
+    <Path pathName="Data/Scenes/Mountain.MY3D"/>
+    <Path pathName="Data/Scenes/Mountain.MY3D"/>
+    <Path pathName="Data/Scenes/Mountain.MY3D"/>
+    <Scene Path ="Scenes/08-skinned-tube-v2.my3d"></Scene>
+    <Scene Path ="Scenes/09-zax_mesh_with_walk_frwd.my3d"></Scene>
+    <Scene Path ="Scenes/10-capstone-char-anim-with-box.my3d"></Scene>     
+    <Scene Path ="Scenes/test_box_6_mtl-2.my3d"></Scene>-->
+  </Scenes>
+</SceneData>

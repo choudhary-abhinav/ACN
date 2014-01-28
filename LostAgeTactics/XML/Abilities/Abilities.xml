@@ -1,0 +1,131 @@
+<Abilities>
+  <Ability>
+    <Info name="Attack" />
+    <Cost mp="0" hp="0"/>
+    <Damage strModifier="8" intModifier="0" armModifier="0"/>
+    <BaseElement baseElement=""/>
+    <Target targetType="Enemy"/>
+    <Properties minRange ="1" maxRange="1" areaOfEffect="0" />
+    <Effects>
+      <Effect name ="MeleeSwing"/>      
+    </Effects>
+  </Ability>
+
+  <Ability>
+    <Info name="PowerAttack" />
+    <Cost mp="10" hp="20"/>
+    <Damage strModifier="18" intModifier="0" armModifier="0"/>
+    <BaseElement baseElement=""/>
+    <Target targetType="Enemy"/>
+    <Properties minRange ="1" maxRange="1" areaOfEffect="0" />
+    <Effects>
+      <Effect name ="MeleeSwing"/>
+    </Effects>
+  </Ability>
+
+  <Ability>
+    <Info name="SuperAttack" />
+    <Cost mp="20" hp="50"/>
+    <Damage strModifier="28" intModifier="0" armModifier="0"/>
+    <BaseElement baseElement=""/>
+    <Target targetType="Enemy"/>
+    <Properties minRange ="1" maxRange="2" areaOfEffect="0" />
+    <Effects>
+      <Effect name ="MeleeSwing"/>
+    </Effects>
+  </Ability>
+
+  <Ability>
+    <Info name="Heal" />
+    <Cost mp="10" hp="0"/>
+    <Damage strModifier="0" intModifier="15" armModifier="0"/>
+    <BaseElement baseElement=""/>
+    <Target targetType="Ally"/>
+    <Properties minRange ="1" maxRange="4" areaOfEffect="1" />
+    <Effects>
+      <Effect name ="MeleeSwing"/>
+    </Effects>
+  </Ability>
+
+  <Ability>
+    <Info name="Curaga" />
+    <Cost mp="50" hp="0"/>
+    <Damage strModifier="0" intModifier="32" armModifier="0"/>
+    <BaseElement baseElement=""/>
+    <Target targetType="Ally"/>
+    <Properties minRange ="1" maxRange="4" areaOfEffect="1" />
+    <Effects>
+      <Effect name ="MeleeSwing"/>
+    </Effects>
+  </Ability>
+
+  <Ability>
+    <Info name="Fire" />
+    <Cost mp="10" hp="0"/>
+    <Damage strModifier="0" intModifier="10" armModifier="0"/>
+    <BaseElement baseElement="Fire"/>
+    <Target targetType="Enemy"/>
+    <Properties minRange ="1" maxRange="4" areaOfEffect="1" />
+    <Effects>
+      <Effect name ="MeleeSwing"/>
+    </Effects>
+  </Ability>
+  <Ability>
+    <Info name="Ice" />
+    <Cost mp="10" hp="0"/>
+    <Damage strModifier="0" intModifier="10" armModifier="0"/>
+    <BaseElement baseElement="Ice"/>
+    <Target targetType="Enemy"/>
+    <Properties minRange ="1" maxRange="4" areaOfEffect="1" />
+    <Effects>
+      <Effect name ="MeleeSwing"/>
+    </Effects>
+  </Ability>
+  <Ability>
+    <Info name="Lightning" />
+    <Cost mp="10" hp="0"/>
+    <Damage strModifier="0" intModifier="10" armModifier="0"/>
+    <BaseElement baseElement="Lightning"/>
+    <Target targetType="Enemy"/>
+    <Properties minRange ="1" maxRange="4" areaOfEffect="1" />
+    <Effects>
+      <Effect name ="MeleeSwing"/>
+    </Effects>
+  </Ability>
+
+  <Ability>
+    <Info name="Fira" />
+    <Cost mp="50" hp="0"/>
+    <Damage strModifier="0" intModifier="15" armModifier="0"/>
+    <BaseElement baseElement="Fira"/>
+    <Target targetType="Enemy"/>
+    <Properties minRange ="1" maxRange="6" areaOfEffect="2" />
+    <Effects>
+      <Effect name ="MeleeSwing"/>
+    </Effects>
+  </Ability>
+
+  <Ability>
+    <Info name="Blizzaga" />
+    <Cost mp="50" hp="0"/>
+    <Damage strModifier="0" intModifier="15" armModifier="0"/>
+    <BaseElement baseElement="Ice"/>
+    <Target targetType="Enemy"/>
+    <Properties minRange ="1" maxRange="6" areaOfEffect="2" />
+    <Effects>
+      <Effect name ="MeleeSwing"/>
+    </Effects>
+  </Ability>
+
+  <Ability>
+    <Info name="Thundera" />
+    <Cost mp="50" hp="0"/>
+    <Damage strModifier="0" intModifier="15" armModifier="0"/>
+    <BaseElement baseElement="Lightning"/>
+    <Target targetType="Enemy"/>
+    <Properties minRange ="1" maxRange="6" areaOfEffect="2" />
+    <Effects>
+      <Effect name ="MeleeSwing"/>
+    </Effects>
+  </Ability>
+</Abilities>

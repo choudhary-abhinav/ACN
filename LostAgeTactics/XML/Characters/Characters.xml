@@ -1,0 +1,94 @@
+<Characters>
+  <Character>
+    <Info name="Abhi" />
+    <Properties baseLevel="1" controllerNum="0"/>
+    <Classes>
+      <Class className="Warrior"/>
+    </Classes>        
+    <Models>
+      <Model name ="AxeStatic"/>      
+    </Models>
+  </Character>
+  <Character>
+    <Info name="Trevin" />
+    <Properties baseLevel="1" controllerNum="0"/>
+    <Classes>
+      <Class className="Mage"/>
+    </Classes>
+    <Models>
+      <Model name ="LinaStatic"/>
+    </Models>
+  </Character>
+  <Character>
+    <Info name="Ben" />
+    <Properties baseLevel="1" controllerNum="0"/>
+    <Classes>
+      <Class className="Healer"/>
+    </Classes>
+    <Models>
+      <Model name ="CrystalMaidenStatic"/>
+    </Models>
+  </Character>
+  <Character>
+    <Info name="Matt" />
+    <Properties baseLevel="1" controllerNum="1"/>
+    <Classes>
+      <Class className="Mage"/>
+    </Classes>
+    <Models>
+      <Model name ="LinaStatic"/>
+    </Models>
+  </Character>
+  <Character>
+    <Info name="Kyle" />
+    <Properties baseLevel="1" controllerNum="1"/>
+    <Classes>
+      <Class className="Warrior"/>
+    </Classes>
+    <Models>
+      <Model name ="AxeStatic"/>
+    </Models>
+  </Character>
+  <Character>
+    <Info name="Andrew" />
+    <Properties baseLevel="1" controllerNum="1"/>
+    <Classes>
+      <Class className="Healer"/>
+    </Classes>
+    <Models>
+      <Model name ="BatStatic"/>
+    </Models>
+  </Character>
+
+  <Character>
+    <Info name="Scott" />
+    <Properties baseLevel="1" controllerNum="2"/>
+    <Classes>
+      <Class className="Healer"/>
+    </Classes>
+    <Models>
+      <Model name ="CrystalMaidenStatic"/>
+    </Models>
+  </Character>
+  <Character>
+    <Info name="AndrewN" />
+    <Properties baseLevel="1" controllerNum="2"/>
+    <Classes>
+      <Class className="Tank"/>
+    </Classes>
+    <Models>
+      <Model name ="LaraStatic"/>
+    </Models>
+  </Character>
+  <Character>
+    <Info name="Preston" />
+    <Properties baseLevel="1" controllerNum="2"/>
+    <Classes>
+      <Class className="Tank"/>
+    </Classes>
+    <Models>
+      <Model name ="RaidenStatic"/>
+    </Models>
+  </Character>
+
+</Characters>

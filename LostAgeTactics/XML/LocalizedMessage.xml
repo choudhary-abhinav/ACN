@@ -1,0 +1,181 @@
+<LocalizedMessages>
+  <LocalizedMessage>
+    <Info name="WorkerIdle" nameDescription="EventMsg" type="Worker" subType="BasicMsg"/>
+    <Details duration="3" color="1,1,0"/>    
+    <Messages>
+      <Message message ="For the end-of-the-world spell, press Control, Alt, Delete."/>
+      <Message message ="Click me baby, one more time."/>
+      <Message message ="HK-47 is ready to serve, master"/>       
+    </Messages>    
+  </LocalizedMessage>
+
+  <LocalizedMessage>
+    <Info name="WorkerHeal" nameDescription="EventMsg" type="Worker" subType="BasicMsg"/>
+    <Details duration="3" color="1,0,0"/>
+    <Messages>
+      <Message message ="I don't care if I live or die"/>
+      <Message message ="I DONT WANT TO DIE :("/>
+      <Message message ="Without death, there can be no peace."/>
+      <Message message ="NEED HEALTH"/>      
+    </Messages>
+  </LocalizedMessage>
+
+
+  <LocalizedMessage>
+    <Info name="WorkerTravel" nameDescription="EventMsg" type="Worker" subType="BasicMsg"/>
+    <Details duration="3" color="0,0,1"/>
+    <Messages>
+      <Message message ="Yolo!!! PENGUINS!"/>
+      <Message message ="Penguins gotta go"/>
+      <Message message ="Penguins gotta go"/>
+      <Message message ="You don't know so"/>
+      <Message message ="Jump, Jump! Slide, Slide!"/>
+      <Message message ="BUT!!! Penguins Gotta GO!"/>
+    </Messages>
+  </LocalizedMessage>
+
+
+  <LocalizedMessage>
+    <Info name="WorkerGathering" nameDescription="EventMsg" type="Worker" subType="BasicMsg"/>
+    <Details duration="3" color="0,1,0"/>
+    <Messages>
+      <Message message ="Gathering resources"/>
+      <Message message ="A man chooses. A slave obeys."/>
+      <Message message ="*_* Overtime = More Fish"/>
+      <Message message ="I feel used"/>
+    </Messages>
+  </LocalizedMessage>
+
+  <LocalizedMessage>
+    <Info name="WorkerDepositStorageToBase" nameDescription="EventMsg" type="Worker" subType="BasicMsg"/>
+    <Details duration="3" color="0,1,0"/>
+    <Messages>
+      <Message message ="This is tedious"/>
+      <Message message ="I don't get paid enough for this!"/>
+      <Message message ="FISH FISH, HERE I COME!"/>
+    </Messages>
+  </LocalizedMessage>
+
+
+
+  <LocalizedMessage>
+    <Info name="WorkerBuilding" nameDescription="EventMsg" type="Worker" subType="BasicMsg"/>
+    <Details duration="6" color="0,1,0"/>
+    <Messages>
+      <Message message ="So much for my vacation"/>
+      <Message message ="Ah my Wife; she was the type of woman who loved a penguin, any penguin"/>
+      <Message message ="Oh Fleshie! Oh Fleshie!"/>
+      <Message message ="This place is colder than Eva Gabor's wig fridge!"/>
+    </Messages>
+  </LocalizedMessage>
+
+  <LocalizedMessage>
+    <Info name="MiltiaryUnitIdle" nameDescription="EventMsg" type="Worker" subType="BasicMsg"/>
+    <Details duration="3" color="1,1,0"/>
+    <Messages>
+      <Message message ="Click me baby, one more time."/>
+      <Message message ="Maybe you should get a strategy guide."/>
+      <Message message ="For the end-of-the-world spell, press Control, Alt, Delete."/>
+      <Message message ="Penguin blood is thicker than .. er... regular .. blood."/>
+    </Messages>
+  </LocalizedMessage>
+
+  <LocalizedMessage>
+    <Info name="MiltiaryUnitHeal" nameDescription="EventMsg" type="Worker" subType="BasicMsg"/>
+    <Details duration="3" color="1,0,0"/>
+    <Messages>
+      <Message message ="Get off! Get lost"/>
+      <Message message ="I don't want to die, man! Not like this!"/>
+      <Message message ="That hurt my feelings! ...Oh my God,I have feelings?! I'm a real penguin!"/>
+      <Message message ="Attack me if you dare, i will crush you"/>
+    </Messages>
+  </LocalizedMessage>
+  <LocalizedMessage>
+    <Info name="MiltiaryUnitTravel" nameDescription="EventMsg" type="Worker" subType="BasicMsg"/>
+    <Details duration="6" color="0,0,1"/>
+    <Messages>
+      <Message message ="I smell magic in the air....or maybe barbecue"/>
+      <Message message ="YAY something new"/>
+      <Message message ="I've got balls of steel"/>
+      <Message message ="It's time to kick ass and chew bubble gum.... And I'm all out of gum"/>
+    </Messages>
+  </LocalizedMessage>
+  <LocalizedMessage>
+    <Info name="MiltiaryUnitMoveToTarget" nameDescription="EventMsg" type="Worker" subType="BasicMsg"/>
+    <Details duration="6" color="1,0,0"/>
+    <Messages>
+      <Message message ="All your base are belong to us."/>
+      <Message message ="All I want is world peace... or a piece of the world."/>
+      <Message message ="Zerg rush! KeKeKeKeKe"/>
+      <Message message ="Do not try to resist me, or I will have to hug you to death"/>
+    </Messages>
+  </LocalizedMessage>
+  <LocalizedMessage>
+    <Info name="MiltiaryUnitAttacking" nameDescription="EventMsg" type="Worker" subType="BasicMsg"/>
+    <Details duration="3" color="1,0,0"/>
+    <Messages>
+      <Message message ="Im gonna shove that bat up your ass and turn you into a popsicle"/>
+      <Message message ="Tell me your name..or I won't be responsible for my actions."/>
+      <Message message ="Cleanse! Purge! KILL!"/>
+      <Message message ="I AM THE MUSTARD OF YOUR DOOM!"/>
+      <Message message ="There are two ways this can go down, and in both of them, you die!"/>
+      
+    </Messages>
+  </LocalizedMessage>
+  <LocalizedMessage>
+    <Info name="MiltiaryUnitKill" nameDescription="EventMsg" type="Worker" subType="BasicMsg"/>
+    <Details duration="3" color="0,1,0"/>
+    <Messages>
+      <Message message ="Oh, you're dead... what a surprise..."/>
+      <Message message ="You, my friend, got owned."/>
+      <Message message ="Hey, I think he died! Are you dead?"/>
+      <Message message ="I dedicate this match to my lovely wife. Honey, this head's for you!"/>
+    </Messages>
+  </LocalizedMessage>
+
+  <LocalizedMessage>
+    <Info name="GameBuildingCreation" nameDescription="EventMsg" type="Worker" subType="BasicMsg"/>
+    <Details duration="3" color="0,1,0"/>
+    <Messages>
+      <Message message ="YOU PENGUIN! BUILD ME!"/>
+      <Message message ="Lo and Behold! A Masterpeice"/>
+      <Message message ="I AM ALIVE!!"/>
+      <Message message ="I serve thee Master"/>
+    </Messages>
+  </LocalizedMessage>
+
+  <LocalizedMessage>
+    <Info name="GameBuildingIsBuildingUnit" nameDescription="EventMsg" type="Worker" subType="BasicMsg"/>
+    <Details duration="3" color="0,0,1"/>
+    <Messages>
+      <Message message ="Wait for it!"/>
+      <Message message ="Let the magic begin!"/>
+      <Message message ="Come, come my beloved!"/>
+      <Message message ="I'm about to have a baby!!!"/>
+      <Message message ="Minion Incoming!"/>
+    </Messages>
+  </LocalizedMessage>
+
+  <LocalizedMessage>
+    <Info name="GameBuildingIdle" nameDescription="EventMsg" type="Worker" subType="BasicMsg"/>
+    <Details duration="4" color="1,1,0"/>
+    <Messages>
+      <Message message ="O_O"/>
+      <Message message ="x_X"/>
+      <Message message ="Man, this place smells like penguins."/>
+      <Message message ="Bored!"/>
+    </Messages>
+  </LocalizedMessage>
+
+  <LocalizedMessage>
+    <Info name="GameBuildingBuiltUnit" nameDescription="EventMsg" type="Worker" subType="BasicMsg"/>
+    <Details duration="3" color="0,1,0"/>
+    <Messages>
+      <Message message ="Oh you handsome devil!"/>
+      <Message message ="Make Momma proud!"/>
+      <Message message ="Mission Accomplished!"/>      
+    </Messages>
+  </LocalizedMessage>
+</LocalizedMessages>
+
+

@@ -1,0 +1,67 @@
+<Terrains>
+  <Terrain>
+    <Info name="Grass" />
+    <Properties collision="0"/>
+    <Walls>
+      <Wall name ="Grass"/>
+    </Walls>
+    <Models>
+      <Model name ="Grass"/>
+      <Model name ="Grass2"/>
+      <Model name ="Grass3"/>
+      <!--<Model name ="LaraStatic"/>-->
+    </Models>
+
+  </Terrain>
+
+  <Terrain>
+    <Info name="Water" />
+    <Properties collision="1"/>
+    <Walls>
+      <Wall name ="Water"/>
+    </Walls>
+    <Models>
+    </Models>
+
+  </Terrain>
+
+
+  <Terrain>
+    <Info name="Forest" />
+    <Properties collision="1"/>
+    <Walls>
+      <Wall name ="Clover"/>
+    </Walls>
+    <Models>
+      <Model name ="Forest"/>
+      <Model name ="Forest2"/>
+    </Models>
+
+  </Terrain>
+
+  <Terrain>
+    <Info name="Dirt" />
+    <Properties collision="0"/>
+    <Walls>
+      <Wall name ="GreenMud"/>
+    </Walls>
+    <Models>
+      <Model name ="Grass4"/>
+      <Model name ="Grass5"/>
+    </Models>
+
+  </Terrain>
+
+  <Terrain>
+    <Info name="Mountain" />
+    <Properties collision="1"/>
+    <Walls>
+      <Wall name ="Stone"/>
+    </Walls>
+    <Models>
+      <Model name ="Mountain"/>
+      <Model name ="Mountain2"/>
+    </Models>
+
+  </Terrain>
+</Terrains>

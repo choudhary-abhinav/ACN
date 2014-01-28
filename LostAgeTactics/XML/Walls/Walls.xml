@@ -1,0 +1,89 @@
+<Walls>
+  <Wall>
+    <Info name="Water" />
+    <Textures>
+      <Texture name= "diffuseMap" path = "Data/Textures/Walls/Water_COLOR.png" />
+      <Texture name= "normalMap" path = "Data/Textures/Walls/Water_NRM.png" />
+      <Texture name= "specularMap" path = "Data/Textures/Walls/Water_SPEC.png" />
+      <Texture name= "bumpMap" path = "Data/Textures/Walls/Water_DISP.png" />
+    </Textures>
+
+  </Wall>
+
+  <Wall>
+    <Info name="Stone" />
+    <Textures>
+      <Texture name= "diffuseMap" path = "Data/Textures/Walls/Stone_COLOR.png" />
+      <Texture name= "normalMap" path =  "Data/Textures/Walls/Stone_NRM.png" />
+      <Texture name= "specularMap" path ="Data/Textures/Walls/Stone_SPEC.png" />
+      <Texture name= "bumpMap" path =    "Data/Textures/Walls/Stone_DISP.png" />
+    </Textures>
+
+  </Wall>
+
+  <Wall>
+    <Info name="Mud" />
+    <Textures>
+      <Texture name= "diffuseMap" path = "Data/Textures/Walls/Mud_COLOR.png" />
+      <Texture name= "normalMap" path =  "Data/Textures/Walls/Mud_NRM.png" />
+      <Texture name= "specularMap" path ="Data/Textures/Walls/Mud_SPEC.png" />
+      <Texture name= "bumpMap" path =    "Data/Textures/Walls/Mud_DISP.png" />
+    </Textures>
+
+  </Wall>
+
+  <Wall>
+    <Info name="GreenMud" />
+    <Textures>
+      <Texture name= "diffuseMap" path = "Data/Textures/Walls/GreenMud_COLOR.png" />
+      <Texture name= "normalMap" path =  "Data/Textures/Walls/GreenMud_NRM.png" />
+      <Texture name= "specularMap" path ="Data/Textures/Walls/GreenMud_SPEC.png" />
+      <Texture name= "bumpMap" path =    "Data/Textures/Walls/GreenMud_DISP.png" />
+    </Textures>
+
+  </Wall>
+
+  <Wall>
+    <Info name="Grass2" />
+    <Textures>
+      <Texture name= "diffuseMap" path = "Data/Textures/Walls/Grass2_COLOR.png" />
+      <Texture name= "normalMap" path =  "Data/Textures/Walls/Grass2_NRM.png" />
+      <Texture name= "specularMap" path ="Data/Textures/Walls/Grass2_SPEC.png" />
+      <Texture name= "bumpMap" path =    "Data/Textures/Walls/Grass2_DISP.png" />
+    </Textures>
+
+  </Wall>
+
+  <Wall>
+    <Info name="Grass" />
+    <Textures>
+      <Texture name= "diffuseMap" path = "Data/Textures/Walls/Grass_COLOR.png" />
+      <Texture name= "normalMap" path =  "Data/Textures/Walls/Grass_NRM.png" />
+      <Texture name= "specularMap" path ="Data/Textures/Walls/Grass_SPEC.png" />
+      <Texture name= "bumpMap" path =    "Data/Textures/Walls/Grass_DISP.png" />
+    </Textures>
+
+  </Wall>
+
+  <Wall>
+    <Info name="DirtMud" />
+    <Textures>
+      <Texture name= "diffuseMap" path = "Data/Textures/Walls/DirtMud_COLOR.png" />
+      <Texture name= "normalMap" path =  "Data/Textures/Walls/DirtMud_NRM.png" />
+      <Texture name= "specularMap" path ="Data/Textures/Walls/DirtMud_SPEC.png" />
+      <Texture name= "bumpMap" path =    "Data/Textures/Walls/DirtMud_DISP.png" />
+    </Textures>
+
+  </Wall>
+
+  <Wall>
+    <Info name="Clover" />
+    <Textures>
+      <Texture name= "diffuseMap" path = "Data/Textures/Walls/Clover_COLOR.png" />
+      <Texture name= "normalMap" path =  "Data/Textures/Walls/Clover_NRM.png" />
+      <Texture name= "specularMap" path ="Data/Textures/Walls/Clover_SPEC.png" />
+      <Texture name= "bumpMap" path =    "Data/Textures/Walls/Clover_DISP.png" />
+    </Textures>
+
+  </Wall>
+</Walls>

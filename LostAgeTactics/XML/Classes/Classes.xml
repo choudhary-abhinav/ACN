@@ -1,0 +1,49 @@
+<Classes>
+  <Class>
+    <Info name="Warrior" />
+    <BaseStats str="10" arm="10" int="10"/>
+    <StatPerLvl str="3" arm="2" int="1"/>
+    <Movement movement="5"/>  
+    <Elements weakAgainst="Ice,Fire,Lightning" strongAgainst="Ice,Fire,Lightning"/>
+    <Abilities>
+      <Ability name="Attack,PowerAttack" lvlReq="1"/>
+      <Ability name="SuperAttack" lvlReq="2"/>
+    </Abilities>
+  </Class>
+  <Class>
+    <Info name="Tank" />
+    <BaseStats str="10" arm="10" int="10"/>
+    <StatPerLvl str="2" arm="3" int="1"/>
+    <Movement movement="5"/>
+    <Level baseLevel="1"/>
+    <Elements weakAgainst="Ice,Fire,Lightning" strongAgainst="Ice,Fire,Lightning"/>
+    <Abilities>
+      <Ability name="Attack" lvlReq="1"/>
+      <Ability name="PowerAttack" lvlReq="2"/>
+    </Abilities>
+  </Class>
+  <Class>
+    <Info name="Mage" />
+    <BaseStats str="10" arm="10" int="10"/>
+    <StatPerLvl str="1" arm="1" int="4"/>
+    <Movement movement="4"/>
+    <Level baseLevel="1"/>
+    <Elements weakAgainst="Ice,Fire,Lightning" strongAgainst="Ice,Fire,Lightning"/>
+    <Abilities>
+      <Ability name="Attack,Fire,Ice,Lightning" lvlReq="1"/>
+      <Ability name="Fira,Blizzaga,Thundera" lvlReq="2"/>
+    </Abilities>
+  </Class>
+  <Class>
+    <Info name="Healer" />
+    <BaseStats str="10" arm="10" int="10"/>
+    <StatPerLvl str="1" arm="2" int="3"/>
+    <Movement movement="4"/>
+    <Level baseLevel="1"/>
+    <Elements weakAgainst="Ice,Fire,Lightning" strongAgainst="Ice,Fire,Lightning"/>
+    <Abilities>
+      <Ability name="Attack,Heal" lvlReq="1"/>
+      <Ability name="Curaga" lvlReq="2"/>
+    </Abilities>
+  </Class>
+</Classes>

@@ -1,0 +1,29 @@
+<GameData>
+  <Terrains>
+    <Terrain path="data/xml/Terrain/Terrain.xml" />
+  </Terrains>
+  <Maps>
+    <Map path="data/xml/Maps/Valkyries.xml" />
+  </Maps>
+  <Units>
+    <Unit path="data/xml/Units/Units.xml" />
+  </Units>
+  <Walls>
+    <Wall path="data/xml/Walls/Walls.xml" />
+  </Walls>
+  <Characters>
+    <Character path="data/xml/Characters/Characters.xml" />
+  </Characters>
+  <Classes>
+    <Character path="data/xml/Classes/Classes.xml" />
+  </Classes>
+  <Abilities>
+    <Character path="data/xml/Abilities/Abilities.xml" />
+  </Abilities>
+  <Models>
+    <Model path="Data/XML/Models/Models.xml" />
+  </Models>
+  <LocalizedMessages>
+    <LocalizedMessage path="data/xml/LocalizedMessage.xml" />
+  </LocalizedMessages>
+</GameData>
